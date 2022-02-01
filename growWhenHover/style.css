@@ -1,0 +1,27 @@
+body {
+  font-family: Arial sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.card-custom {
+  border-radius: 4px;
+  margin-top: 100px;
+  transition: all 0.3s;
+}
+.card-custom:hover {
+  transform: scale(1.2);
+}
+.card-head img {
+  max-width: 100%;
+  object-fit: cover;
+  height: 255px;
+  width: 100%;
+}
+.card-custom-body {
+  background-color: rgb(163, 199, 201);
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
