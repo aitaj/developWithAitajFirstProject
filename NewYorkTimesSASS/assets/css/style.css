@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #1f1e1e !important;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container-custom {
+  margin: 0px 150px;
+}
+
+@media (max-width: 576px) {
+  .container-custom {
+    margin: 0px;
+  }
+}
+
+header .desktop-nav {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 576px) {
+  header .desktop-nav {
+    display: none;
+  }
+}
+
+header .desktop-nav h5 {
+  font-size: 14px !important;
+  font-weight: 700;
+  margin-top: 5px;
+  padding: 0px 5px;
+}
+
+header .desktop-nav span {
+  border-left: 2px solid #b6b2b2;
+  height: 23px;
+  margin-left: 4px;
+}
+
+header .desktop-nav .social-media ul {
+  display: flex;
+}
+
+header .desktop-nav .social-media ul li {
+  margin-right: 18px;
+  background-color: #eee;
+  border: 1px #eee solid;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .desktop-nav .social-media ul li i {
+  color: black;
+}
+
+header .desktop-nav .social-media ul li:hover {
+  background-color: white;
+}
+
+header .desktop-nav .social-media ul img {
+  width: 20px;
+}
+
+header .logo {
+  width: 200px;
+}
+
+header .logo img {
+  width: 100%;
+}
+
+header .mobile-nav {
+  display: none;
+}
+
+header .mobile-nav {
+  padding: 20px;
+}
+
+@media (max-width: 576px) {
+  header .mobile-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+header .mobile-nav img {
+  width: 200px !important;
+}
+
+#suggested-newsletters .heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+#suggested-newsletters .card-custom {
+  padding: 20px;
+  border: 1px solid #e6e3e3;
+  border-radius: 2px;
+  transition: all 0.3s;
+  height: 300px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+  #suggested-newsletters .card-custom {
+    height: auto;
+  }
+}
+
+#suggested-newsletters .card-custom:hover {
+  box-shadow: -5px 4px 8px 2px whitesmoke;
+}
+
+#suggested-newsletters .card-custom:hover .adding-mail {
+  background-color: #1f1e1e;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  #suggested-newsletters .card-custom {
+    display: flex;
+  }
+}
+
+#suggested-newsletters .card-custom .card-head-custom img {
+  width: 82px;
+}
+
+#suggested-newsletters .card-custom .card-head-custom .adding-mail {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 8px;
+  border: 3px solid #1f1e1e;
+  border-radius: 50%;
+  transition: all 0.3s;
+}
+
+#suggested-newsletters .card-custom .card-body-custom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 190px;
+}
+
+@media (max-width: 576px) {
+  #suggested-newsletters .card-custom .card-body-custom {
+    flex-direction: column;
+    margin-left: 10px;
+    height: auto;
+  }
+}
+
+#suggested-newsletters .card-custom .card-body-custom h6 {
+  font-weight: 300;
+  margin: 10px 0px 0px;
+  font-size: 13px;
+}
+
+@media (max-width: 576px) {
+  #suggested-newsletters .card-custom .card-body-custom h6 {
+    margin: 0px;
+  }
+}
+
+#suggested-newsletters .card-custom .card-body-custom h5 {
+  font-weight: 700;
+  margin-top: 0px;
+}
+
+#suggested-newsletters .card-custom .card-body-custom p {
+  line-height: 18px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+@media (max-width: 576px) {
+  #suggested-newsletters .card-custom .card-body-custom p {
+    margin-bottom: 10px;
+  }
+}
+
+#suggested-newsletters .card-custom .card-body-custom a {
+  color: #326891 !important;
+  font-weight: 700;
+  font-size: 14px;
+}

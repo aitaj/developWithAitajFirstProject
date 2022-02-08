@@ -1,0 +1,12 @@
+
+  @mixin mq-small() {
+    @media (max-width: 576px) {
+      @content;
+    }
+  }
+  @mixin container {
+    margin:0px 150px ;
+    @include mq-small{
+      margin: 0px;
+    }
+  }
